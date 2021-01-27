@@ -1,0 +1,23 @@
+PokeRun! Pseudocode
+PokeRun! is a free-roam, tile-map, game based on all the pokemon games, without the story lines; meaning the player can do what they want.
+The first region is the most important, so for now, only the Kanto region will be added, but PokeRun! will be designed for adding more later.
+
+Start of pseudocode:
+
+When player runs PokeRun!, it will get the os.name property and depending on which os the player is using:
+if os.name is win, go to the folder of <user.home> and if the "pokerun" folder and child folders do not exist, it will create them,
+	and then put needed data into a hidden folder at "<user.home>/pokerun/data", and other data, like regions, skins, and other stuff into
+	a folder called "<user.home>/pokerun/customization"
+if os.name is nix, nux, aix, mac, or sunos, go to the folder of <user.home> and if the "pokerun" folder and child folders do not exist, it will
+	create them, and then put needed data into a hidden folder at "<user.home>/pokerun/.data", and the other data, like regions, skins,
+	and other stuff into a folder called "<user.home>/pokerun/customization"
+
+Then, it will write the needed data to the correct folders. There will be region files, named in a region format like so:
+	<!><r><!><e><!><g><!><i><!><o><!><n><!>.dat
+	The format is a random alphanumerical character in between each letter of the region name.
+
+The reason for using .dat instead of .zip, is that people will not know that it is easily editable data. The files will also be read only.
+	There will be an extra script that will be used to delete all PokeRun! data. This will be a highly dangerous script, so it will give 2 prompts about deletion.
+	If people use the customization folder, they will just use zip files.
+
+:Continue here

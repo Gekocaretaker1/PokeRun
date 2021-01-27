@@ -1,0 +1,41 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse Stuff
+/.classpath
+/.project
+/.settings
+
+# gradle stuff
+/gradlew
+/gradlew.bat
+/gradle
+/.gradle
+
+# maven
+pom.xml
+/build.xml
+/target
+
+# other build files
+/build
+/bin
+/dist
+/manifest.mf
+/run
+/libs
+/eclipse
+/classes
+/out
+/logs
+
+# good measure
+*.jks
+gradle.attributes
+gradle.properties
+
+/src/generated
